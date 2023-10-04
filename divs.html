@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with divs</title>
+    <!--internal css-->
+    <!--Parentdiv with two nested divs-->
+    <style>
+    .parentdiv{
+        background-color: gray;
+        width:70%;
+        height: 50%;
+        padding-left: 30px;
+        padding-bottom: 40px;
+        margin-left: 50px;
+        margin: auto;
+    }
+        .childone{
+            background-color: aqua;
+            width: fit-content;
+            padding: 10px;
+            margin: 10px;
+            float: right;
+        }
+        .childtwo{
+            background-color: bisque;
+            width: fit-content;
+            padding: 10px;
+            margin: 10px;
+            float: leftbottom;
+        }
+        .parentdiv2{
+            background-color: gold;
+            width: 70%;
+            margin: auto;
+            height: 500px;
+            padding: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-top: 20px;   
+        }
+        .divone{
+            background-color: green;
+            width:40%;
+            margin-top: 20px;
+            float: left;
+            
+        }
+        .divtwo{
+            background-color: blue;
+            width: 40%;
+            float: left;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parentdiv">
+        <h1>Working with divs</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore optio repellendus rem? Veniam nobis quis adipisci expedita ad. Debitis dolores non illo dolore. Possimus odio sunt, quisquam id nulla pariatur?</p>
+    </div>
+    <!--parent div two-->
+    <div class="parentdiv2">
+        <!--nested div one-->
+    <div class="divone"><h1>div one</h1></div>
+    <!--nested div two-->
+    <div class="divtwo"><h1>div two</h1></div>
+    </div>
+        
+    
+</body>
+</html>
